@@ -9,6 +9,10 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "VisualIdea | Viral Content Idea Generator",
   description: "Daily viral content ideas for creators. Scale your social media with high-impact hooks and captions.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
 };
 
 export default function RootLayout({
