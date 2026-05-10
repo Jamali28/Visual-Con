@@ -44,10 +44,6 @@ export const metadata: Metadata = {
     description: "Scale your social media with daily viral ideas and creator resources.",
     images: ["/idea.png"],
   },
-  icons: {
-    icon: "/idea.png",
-    apple: "/idea.png",
-  },
   robots: {
     index: true,
     follow: true,
