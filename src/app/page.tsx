@@ -147,9 +147,9 @@ export default function Home() {
                 </h2>
                 <div className="space-y-8">
                   {[
-                    { num: 1, title: "Pick Your Niche", desc: "Whether it's Business, Fitness, or Tech, we filter out the noise and show you exactly what's working in your specific market right now." },
-                    { num: 2, title: "Deploy Proven Hooks", desc: "Access our database of psychological triggers and scroll-stopping hooks that have been verified to hold attention in 2026." },
-                    { num: 3, title: "Scale with Consistency", desc: "Stop the \"Post and Ghost\" cycle. With daily ideas, you build the muscle of daily posting, which is the only real secret to viral growth." }
+                    { num: 1, title: "Choose Your Creator Niche", desc: "Whether it's Tech, Fitness, or Education, we filter out the noise and show you exactly what's working in the creator economy right now." },
+                    { num: 2, title: "Deploy Viral Hooks", desc: "Access our database of psychological triggers and scroll-stopping hooks that have been verified to hold audience attention in 2026." },
+                    { num: 3, title: "Master Creator Workflow", desc: "Stop the burnout cycle. With daily viral ideas and productivity resources, you build a sustainable content machine." }
                   ].map((item, idx) => (
                     <motion.div 
                       key={idx} 
@@ -179,27 +179,27 @@ export default function Home() {
                 transition={{ duration: 0.6 }}
               >
                 <div className="bg-indigo-600 rounded-2xl p-6 mb-8 shadow-inner">
-                  <p className="text-indigo-100 text-sm font-bold uppercase tracking-widest mb-2">Today's Featured Pro Strategy</p>
+                  <p className="text-indigo-100 text-sm font-bold uppercase tracking-widest mb-2">Today's Creator Framework</p>
                   <h3 className="text-2xl font-bold mb-4">The "Problem-First" Viral Framework</h3>
                   <div className="space-y-4">
                     <div className="bg-white/10 p-4 rounded-xl border border-white/5">
-                      <p className="text-xs text-indigo-200 font-bold mb-1 uppercase">Step 1: The Hook</p>
-                      <p className="font-medium text-white italic">"Your job might be automated, but these 5 skills will never be."</p>
+                      <p className="text-xs text-indigo-200 font-bold mb-1 uppercase">Step 1: The Scroll-Stopper</p>
+                      <p className="font-medium text-white italic">"Your creator workflow is broken, but these 3 AI tools fix it."</p>
                     </div>
                     <div className="bg-white/10 p-4 rounded-xl border border-white/5">
-                      <p className="text-xs text-indigo-200 font-bold mb-1 uppercase">Step 2: The Value</p>
-                      <p className="text-sm text-indigo-100">Deliver 5 rapid-fire points that provide immediate utility to the viewer.</p>
+                      <p className="text-xs text-indigo-200 font-bold mb-1 uppercase">Step 2: High-Retention Value</p>
+                      <p className="text-sm text-indigo-100">Deliver rapid-fire creator tips that provide immediate utility to your viewers.</p>
                     </div>
                     <div className="bg-white/10 p-4 rounded-xl border border-white/5">
-                      <p className="text-xs text-indigo-200 font-bold mb-1 uppercase">Step 3: The CTA</p>
-                      <p className="text-sm text-indigo-100">Ask a question to trigger the algorithm's engagement ranking.</p>
+                      <p className="text-xs text-indigo-200 font-bold mb-1 uppercase">Step 3: Algorithmic CTA</p>
+                      <p className="text-sm text-indigo-100">Trigger engagement ranking with a specific question for your niche.</p>
                     </div>
                   </div>
                 </div>
                 <div className="text-center">
-                  <p className="text-indigo-200 mb-6 font-medium italic">"VisualIdea turned my 2-hour brainstorming session into a 5-minute selection process."</p>
+                  <p className="text-indigo-200 mb-6 font-medium italic">"Visual Idea turned my 2-hour brainstorming session into a 5-minute selection process."</p>
                   <Link href="/register" className="inline-flex items-center gap-2 bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-3 px-8 rounded-xl transition-all transform hover:scale-105 active:scale-95">
-                    Unlock All Pro Frameworks <ArrowRight className="w-4 h-4"/>
+                    Unlock All Creator Frameworks <ArrowRight className="w-4 h-4"/>
                   </Link>
                 </div>
               </motion.div>
@@ -216,12 +216,12 @@ export default function Home() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
             >
-              <h2 className="text-4xl font-bold mb-4 text-gray-900">Simple, Transparent Pricing</h2>
-              <p className="text-gray-600">Choose the plan that works for you</p>
+              <h2 className="text-4xl font-bold mb-4 text-gray-900">Creator-Focused Plans</h2>
+              <p className="text-gray-600">Choose the productivity suite that fits your creator journey</p>
             </motion.div>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              {/* Free Plan */}
+              {/* Creator Starter Plan */}
               <motion.div 
                 className="bg-white p-10 rounded-3xl border border-gray-200 flex flex-col hover:shadow-xl transition-shadow"
                 initial={{ opacity: 0, x: -30 }}
@@ -229,20 +229,24 @@ export default function Home() {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5 }}
               >
-                <h3 className="text-2xl font-bold mb-2">Free</h3>
+                <h3 className="text-2xl font-bold mb-2">Creator Starter</h3>
                 <div className="text-4xl font-extrabold mb-6">$0<span className="text-lg font-normal text-gray-500">/mo</span></div>
                 <ul className="space-y-4 mb-10 flex-grow">
                   <li className="flex items-center space-x-3">
                     <CheckCircle className="h-5 w-5 text-green-500" />
-                    <span className="text-gray-600">3 ideas per day</span>
+                    <span className="text-gray-600">3 viral ideas per day</span>
+                  </li>
+                  <li className="flex items-center space-x-3">
+                    <CheckCircle className="h-5 w-5 text-green-500" />
+                    <span className="text-gray-600">Basic creator resources</span>
                   </li>
                   <li className="flex items-center space-x-3 text-gray-400">
                     <CheckCircle className="h-5 w-5 opacity-20" />
-                    <span>Full library access</span>
+                    <span>Full viral hook library</span>
                   </li>
                   <li className="flex items-center space-x-3 text-gray-400">
                     <CheckCircle className="h-5 w-5 opacity-20" />
-                    <span>Premium hooks & captions</span>
+                    <span>AI content planning features</span>
                   </li>
                 </ul>
                 <Link
@@ -253,7 +257,7 @@ export default function Home() {
                 </Link>
               </motion.div>
 
-              {/* Pro Plan */}
+              {/* AI Creator Pro Plan */}
               <motion.div 
                 className="bg-indigo-600 p-10 rounded-3xl border border-indigo-700 flex flex-col relative overflow-hidden shadow-2xl transform md:scale-105"
                 initial={{ opacity: 0, x: 30 }}
@@ -268,24 +272,24 @@ export default function Home() {
                 >
                   Popular
                 </motion.div>
-                <h3 className="text-2xl font-bold mb-2 text-white">Pro</h3>
+                <h3 className="text-2xl font-bold mb-2 text-white">AI Creator Pro</h3>
                 <div className="text-4xl font-extrabold mb-6 text-white">$19<span className="text-lg font-normal text-indigo-200">/mo</span></div>
                 <ul className="space-y-4 mb-10 flex-grow">
                   <li className="flex items-center space-x-3 text-white">
                     <CheckCircle className="h-5 w-5 text-indigo-300" />
-                    <span>Unlimited daily ideas</span>
+                    <span>Unlimited daily viral ideas</span>
                   </li>
                   <li className="flex items-center space-x-3 text-white">
                     <CheckCircle className="h-5 w-5 text-indigo-300" />
-                    <span>Full library access</span>
+                    <span>Full viral hook library access</span>
                   </li>
                   <li className="flex items-center space-x-3 text-white">
                     <CheckCircle className="h-5 w-5 text-indigo-300" />
-                    <span>Premium hooks & captions</span>
+                    <span>Advanced AI creator resources</span>
                   </li>
                   <li className="flex items-center space-x-3 text-white">
                     <CheckCircle className="h-5 w-5 text-indigo-300" />
-                    <span>New niches added weekly</span>
+                    <span>Social media growth tools</span>
                   </li>
                 </ul>
                 <Link
