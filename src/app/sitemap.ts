@@ -13,6 +13,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/dashboard',
     '/library',
     '/upgrade',
+    '/content-ideas',
+    '/ai-tools',
+    '/workflow',
+    '/growth',
   ].map((route) => ({
     url: `${baseUrl}${route}`,
     lastModified: new Date(),

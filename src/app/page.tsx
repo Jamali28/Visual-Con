@@ -35,9 +35,9 @@ export default function Home() {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-7xl font-extrabold text-gray-900 mb-6 tracking-tight">
-                Creative Web Design & <br />
+                Tools & Resources for <br />
                 <span className="bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600">
-                  Branding Agency in Pakistan
+                  Content Creators
                 </span>
               </h1>
             </motion.div>
@@ -48,7 +48,7 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              Visual Idea helps startups and businesses create modern websites, branding systems, and digital experiences. We specialize in UI/UX design, social media branding, and creative digital solutions that improve online visibility and conversions.
+              Visual Idea helps creators discover viral hooks, content ideas, and AI tools to scale their social media. We provide the resources you need for better content creation, audience growth, and creator productivity.
             </motion.p>
             
             <motion.div 
@@ -61,20 +61,20 @@ export default function Home() {
                 href="/register"
                 className="bg-indigo-600 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-indigo-700 transition flex items-center justify-center space-x-2 shadow-lg shadow-indigo-200"
               >
-                <span>Get a Free Consultation</span>
+                <span>Start Creating for Free</span>
                 <ArrowRight className="h-5 w-5" />
               </Link>
               <Link
                 href="/library"
                 className="bg-white text-gray-700 border border-gray-200 px-8 py-4 rounded-xl font-bold text-lg hover:bg-gray-50 transition"
               >
-                View Our Portfolio
+                Explore Library
               </Link>
             </motion.div>
           </div>
         </section>
 
-        {/* Services Section */}
+        {/* Creator Tools Section */}
         <section className="py-20 px-4 bg-white">
           <div className="max-w-7xl mx-auto">
             <motion.div 
@@ -84,8 +84,8 @@ export default function Home() {
               viewport={{ once: true }}
               variants={fadeInUp}
             >
-              <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">Professional Digital Services</h2>
-              <p className="text-xl text-gray-600">We provide end-to-end creative solutions tailored to your business goals.</p>
+              <h2 className="text-3xl md:text-5xl font-bold text-gray-900 mb-4">The Ultimate Creator Toolkit</h2>
+              <p className="text-xl text-gray-600">Everything you need to stop staring at a blank screen and start growing.</p>
             </motion.div>
 
             <motion.div 
@@ -99,24 +99,24 @@ export default function Home() {
                 <div className="bg-indigo-100 p-3 rounded-xl w-fit mb-6">
                   <Sparkles className="h-6 w-6 text-indigo-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Web Design & Development</h3>
-                <p className="text-gray-600">Custom, responsive, and SEO-friendly websites designed to convert visitors into loyal customers. We use the latest technologies like Next.js and React.</p>
+                <h3 className="text-xl font-bold mb-4">Viral Content Ideas</h3>
+                <p className="text-gray-600">Get fresh, data-backed content concepts tailored to your niche every 24 hours. Never run out of things to post again.</p>
               </motion.div>
               
               <motion.div variants={fadeInUp} className="p-8 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
                 <div className="bg-violet-100 p-3 rounded-xl w-fit mb-6">
                   <Zap className="h-6 w-6 text-violet-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">UI UX Design</h3>
-                <p className="text-gray-600">User-centric interface and experience design that ensures your digital products are intuitive, engaging, and beautiful across all devices.</p>
+                <h3 className="text-xl font-bold mb-4">AI Creator Tools</h3>
+                <p className="text-gray-600">Leverage the power of AI to generate high-converting hooks, captions, and scripts that stop the scroll and boost retention.</p>
               </motion.div>
               
               <motion.div variants={fadeInUp} className="p-8 rounded-2xl bg-gray-50 border border-gray-100 hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
                 <div className="bg-blue-100 p-3 rounded-xl w-fit mb-6">
                   <Shield className="h-6 w-6 text-blue-600" />
                 </div>
-                <h3 className="text-xl font-bold mb-4">Brand Identity Design</h3>
-                <p className="text-gray-600">Comprehensive branding services including logo design, color palettes, and typography that help your business stand out in the Pakistani market.</p>
+                <h3 className="text-xl font-bold mb-4">Growth Resources</h3>
+                <p className="text-gray-600">Access battle-tested strategies and workflow templates designed for YouTubers, TikTokers, and Instagram influencers.</p>
               </motion.div>
             </motion.div>
           </div>

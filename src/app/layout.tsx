@@ -7,9 +7,9 @@ import { Toaster } from "react-hot-toast";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Visual Idea | Web Design & Branding Agency in Pakistan",
-  description: "Visual Idea provides web design, branding, UI/UX, and creative digital solutions for businesses in Pakistan. Scale your business with high-impact digital experiences.",
-  keywords: ["web design Pakistan", "UI UX design Pakistan", "branding agency Pakistan", "creative agency Karachi", "affordable web design", "modern website design"],
+  title: "Visual Idea | Content Creation Tools & Viral Ideas for Creators",
+  description: "Visual Idea helps content creators discover viral hooks, captions, and AI tools for social media growth. Elevate your creator workflow with daily content ideas.",
+  keywords: ["creator tools", "content creation ideas", "viral hooks", "social media growth", "AI tools for creators", "influencer resources", "TikTok content ideas", "Instagram growth"],
   authors: [{ name: "Visual Idea" }],
   creator: "Visual Idea",
   publisher: "Visual Idea",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "Visual Idea | Web Design & Branding Agency in Pakistan",
-    description: "Creative digital agency specializing in web design, branding, and UI/UX solutions in Pakistan.",
+    title: "Visual Idea | Tools & Viral Ideas for Content Creators",
+    description: "The ultimate resource platform for creators. Get viral hooks, content ideas, and AI tools to scale your social media.",
     url: "https://visualidea.netlify.app",
     siteName: "Visual Idea",
     images: [
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
         url: "/idea.png",
         width: 800,
         height: 600,
-        alt: "Visual Idea Logo",
+        alt: "Visual Idea - Creator Tools",
       },
     ],
     locale: "en_US",
@@ -40,8 +40,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Visual Idea | Web Design & Branding Agency in Pakistan",
-    description: "Creative digital agency specializing in web design, branding, and UI/UX solutions in Pakistan.",
+    title: "Visual Idea | Content Creation Tools & Viral Ideas",
+    description: "Scale your social media with daily viral ideas and creator resources.",
     images: ["/idea.png"],
   },
   icons: {
@@ -74,19 +74,15 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "Organization",
+              "@type": "WebSite",
               "name": "Visual Idea",
               "url": "https://visualidea.netlify.app",
-              "logo": "https://visualidea.netlify.app/idea.png",
-              "description": "Visual Idea provides web design, branding, UI/UX, and creative digital solutions for businesses in Pakistan.",
-              "address": {
-                "@type": "PostalAddress",
-                "addressCountry": "Pakistan"
-              },
-              "sameAs": [
-                "https://www.linkedin.com/company/visualidea",
-                "https://twitter.com/visualidea"
-              ]
+              "description": "Tools and resources for content creators to scale their social media with viral ideas and AI utilities.",
+              "potentialAction": {
+                "@type": "SearchAction",
+                "target": "https://visualidea.netlify.app/library?q={search_term_string}",
+                "query-input": "required name=search_term_string"
+              }
             }),
           }}
         />

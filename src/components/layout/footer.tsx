@@ -13,16 +13,16 @@ export const Footer = () => {
               </span>
             </div>
             <p className="text-gray-500 max-w-xs">
-              Creative digital agency in Pakistan specializing in web design, branding, and UI/UX solutions for modern businesses.
+              Tools and resources for content creators to scale their social media with viral ideas and AI utilities.
             </p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Services</h3>
+            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Creator Resources</h3>
             <ul className="space-y-2">
-              <li><a href="/web-design" className="text-gray-500 hover:text-indigo-600">Web Design</a></li>
-              <li><a href="/branding" className="text-gray-500 hover:text-indigo-600">Branding</a></li>
-              <li><a href="/ui-ux-design" className="text-gray-500 hover:text-indigo-600">UI/UX Design</a></li>
-              <li><a href="/social-media-design" className="text-gray-500 hover:text-indigo-600">Social Media Design</a></li>
+              <li><a href="/content-ideas" className="text-gray-500 hover:text-indigo-600">Content Ideas</a></li>
+              <li><a href="/ai-tools" className="text-gray-500 hover:text-indigo-600">AI Creator Tools</a></li>
+              <li><a href="/workflow" className="text-gray-500 hover:text-indigo-600">Workflow Templates</a></li>
+              <li><a href="/growth" className="text-gray-500 hover:text-indigo-600">Growth Strategies</a></li>
             </ul>
           </div>
           <div>
