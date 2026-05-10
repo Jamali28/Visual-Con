@@ -17,7 +17,7 @@ export const Navbar = () => {
             <Link href="/" className="flex items-center space-x-2">
               <Sparkles className="h-8 w-8 text-indigo-600" />
               <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600">
-                VisualIdea
+                Visual Idea
               </span>
             </Link>
           </div>

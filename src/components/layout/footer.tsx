@@ -9,18 +9,27 @@ export const Footer = () => {
             <div className="flex items-center space-x-2 mb-4">
               <Sparkles className="h-6 w-6 text-indigo-600" />
               <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-violet-600">
-                VisualIdea
+                Visual Idea
               </span>
             </div>
             <p className="text-gray-500 max-w-xs">
-              Daily content ideas, hooks, and captions to help you grow your social media presence effortlessly.
+              Creative digital agency in Pakistan specializing in web design, branding, and UI/UX solutions for modern businesses.
             </p>
           </div>
           <div>
-            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Product</h3>
+            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Services</h3>
+            <ul className="space-y-2">
+              <li><a href="/web-design" className="text-gray-500 hover:text-indigo-600">Web Design</a></li>
+              <li><a href="/branding" className="text-gray-500 hover:text-indigo-600">Branding</a></li>
+              <li><a href="/ui-ux-design" className="text-gray-500 hover:text-indigo-600">UI/UX Design</a></li>
+              <li><a href="/social-media-design" className="text-gray-500 hover:text-indigo-600">Social Media Design</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 className="text-sm font-semibold text-gray-900 uppercase tracking-wider mb-4">Company</h3>
             <ul className="space-y-2">
               <li><a href="/dashboard" className="text-gray-500 hover:text-indigo-600">Dashboard</a></li>
-              <li><a href="/library" className="text-gray-500 hover:text-indigo-600">Content Library</a></li>
+              <li><a href="/library" className="text-gray-500 hover:text-indigo-600">Library</a></li>
               <li><a href="/#pricing" className="text-gray-500 hover:text-indigo-600">Pricing</a></li>
             </ul>
           </div>
